@@ -1,6 +1,8 @@
 # enshrouded-server
 Quick start enshrouded server using mbround18/enshrouded-docker:proton-latest with helpful wrapper script
 
+![enshrouded-server.png]
+
 # Getting Started
 1. Install `docker`
 2. Install `docker-compose`
