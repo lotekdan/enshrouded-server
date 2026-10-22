@@ -1,4 +1,4 @@
-# enshrouded-server
+# Enshrouded-Server | Docker | Service Script
 Quick start enshrouded server using mbround18/enshrouded-docker:proton-latest with helpful wrapper script
 
 ![Terminal reference shot](enshrouded-server.png)
