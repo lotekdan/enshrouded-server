@@ -1,0 +1,19 @@
+services:
+  enshrouded-server:
+    image: mbround18/enshrouded-docker:proton-latest
+    container_name: enshrouded-server
+    restart: unless-stopped
+    stop_grace_period: 120s
+    network_mode: host
+    environment:
+      - TZ=America/Chicago
+      - DISPLAY=:99
+      - SKIP_GAME_CONFIG_GEN=false
+      - NAME=
+      - SET_GROUP_ADMIN_PASSWORD=
+      - SET_GROUP_GUEST_PASSWORD=
+      - GAME_PORT=15636
+      - QUERY_PORT=15637
+    volumes:
+      - /path/to/your/folder/for/data:/home/steam/enshrouded
+
