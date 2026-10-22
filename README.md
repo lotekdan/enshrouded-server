@@ -14,6 +14,6 @@ Quick start enshrouded server using mbround18/enshrouded-docker:proton-latest wi
     - set name `NAME=Whatever You want it to be`
     - set admin password `SET_GROUPADMIN_PASSWORD=SuperSecretPasswordBro`
     - set guest password `SET_GROUP_GUEST_PASSWORD=LessSuperSecretOrNone`
-    - for first run, leave `SKIP_GAME_CONFIG_GEN=false` but change it to `true` if you want to customize the server config.The `edit-config` option opens the server config for editing. 
+    - for first run, leave `SKIP_GAME_CONFIG_GEN=false` but change it to `true` if you want to customize the server config. The `edit-config` option opens the server config for editing. 
 7. Save the yml `ctrl+x`
 8. Start the server `enshrouded-server start && enshrouded-server log` 
